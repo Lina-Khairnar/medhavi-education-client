@@ -1,0 +1,38 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #9ae3d6, #87cefa); /* Seafoam Green to Light Blue */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9); /* Slight white background for the app container */
+  border-radius: 15px;  /* Add rounded corners */
+  padding: 30px;  /* Increased padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Slightly bigger shadow */
+  width: 100%;
+  max-width: 600px;  /* Limit the width of the form */
+}
+
+.MuiButton-root {
+  background-color: #87cefa;
+  color: white;
+  padding: 10px 20px;  /* Add some padding to the button */
+  border-radius: 8px;  /* Rounded button */
+  font-size: 16px;  /* Increase font size */
+  width: 100%;
+}
+
+.MuiButton-root:hover {
+  background-color: #9ae3d6;
+}
+
+.MuiTextField-root {
+  margin-bottom: 20px; /* Add space between fields */
+}
